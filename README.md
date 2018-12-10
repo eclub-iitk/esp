@@ -28,3 +28,7 @@
  #### Remove Arduino Reset from Ground.
 
  ## Step 6 >> Start Sending Data to Serial Monitor of the Arduino using sensor.ino file
+
+ ### As we are using MPU6050, we need some extra libraries. Copy I2Cdev and MPU6050 to your libraies folder in Arduino.
+
+ #### Open MPU6050_DMP6 example from MPU6050 Library. 
