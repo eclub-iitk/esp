@@ -32,3 +32,7 @@
  ### As we are using MPU6050, we need some extra libraries. Copy I2Cdev and MPU6050 to your libraies folder in Arduino.
 
  #### Open MPU6050_DMP6 example from MPU6050 Library. 
+
+#### Make this file ready to output YPR data. Remove waiting condition and extra strings. 
+
+
