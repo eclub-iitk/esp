@@ -34,5 +34,6 @@
  #### Open MPU6050_DMP6 example from MPU6050 Library. 
 
 #### Make this file ready to output YPR data. Remove waiting condition and extra strings. 
+#### Typical Output Format >> pitch_tab_roll 
 
 
