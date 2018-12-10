@@ -27,4 +27,4 @@
 
  #### Remove Arduino Reset from Ground.
 
- ## Step 6 >> 
+ ## Step 6 >> Start Sending Data to Serial Monitor of the Arduino using sensor.ino file
