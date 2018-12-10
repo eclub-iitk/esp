@@ -10,4 +10,19 @@
  #### GND - 0V 
  #### GPIO0 -0V
  #### CH_PD - 5V
- 
+
+ #### Arduino Reset- Arduino GND 
+
+ ## Step 4 >> Upload the esp.ino code.
+
+ ## Step 5 >> Disconnect your Arduino Board, Make the Connection (Don't power now)
+
+ ### Connections 
+ #### Tx - Rx
+ #### Rx - Tx
+ #### VCC- 5v
+ #### GND - 0V 
+ #### GPIO0 -open
+ #### CH_PD - 5V
+
+ #### Remove Arduino Reset from Ground.
