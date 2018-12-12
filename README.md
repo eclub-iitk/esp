@@ -6,33 +6,31 @@ Choose your board that you will be using to program your ESP. e.g Arduino Nano.
 #### Connections  
  Tx - Tx  
  Rx - Rx  
- VCC- 5v  
+ VCC- 5V  
  GND - 0V   
  GPIO0 -0V  
  CH_PD - 5V    
  Arduino Reset- Arduino GND 
 
- ## Step 4 >> Upload the esp.ino code.
+ #### Step 4 >> Upload the esp.ino code.
 
- ## Step 5 >> Disconnect your Arduino Board, Make the Connection (Don't power now)
+ #### Step 5 >> Disconnect your Arduino Board, Make the Connection (Don't power now)
 
- ### Connections 
- #### Tx - Rx
- #### Rx - Tx
- #### VCC- 5v
- #### GND - 0V 
- #### GPIO0 -open
- #### CH_PD - 5V
+ #### Connections 
+ Tx - Rx  
+ Rx - Tx  
+ VCC- 5V  
+ GND - 0V   
+ GPIO0 -open  
+ CH_PD - 5V    
+ Remove Arduino Reset from Ground.
 
- #### Remove Arduino Reset from Ground.
+ #### Step 6 >> Start Sending Data to Serial Monitor of the Arduino using sensor.ino file
 
- ## Step 6 >> Start Sending Data to Serial Monitor of the Arduino using sensor.ino file
-
- ### As we are using MPU6050, we need some extra libraries. Copy I2Cdev and MPU6050 to your libraies folder in Arduino.
- #### Make connections according to conn.png
- #### Open MPU6050_DMP6 example from MPU6050 Library. 
-
-#### Make this file ready to output YPR data. Remove waiting condition and extra strings. 
-#### Typical Output Format >> pitch_tab_roll 
+ As we are using MPU6050, we need some extra libraries. Copy I2Cdev and MPU6050 to your libraies folder in Arduino.  
+ Make connections according to conn.png  
+ Open MPU6050_DMP6 example from MPU6050 Library.   
+ Make this file ready to output YPR data. Remove waiting condition and extra strings.   
+ Typical Output Format >> pitch_tab_roll   
 
 
